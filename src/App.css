@@ -1,0 +1,91 @@
+body{
+  font-family: system-ui, sans-serif;
+}
+
+
+nav{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.logo{
+  padding: 0px 10px;
+  color: aliceblue;
+  justify-content: flex-start;
+}
+
+.navbar ul {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+a:hover{
+  color: #646cff;
+}
+
+li{
+  list-style: none;
+  font-weight: bold;
+}
+
+.marques{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 700px;
+  border: solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h3{
+  background-color: #646cff27;
+  border: solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button {
+  color: aliceblue;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 5px 5px;
+  
+}
+button:hover {
+  border-color: #646cff;
+}
+
+input{
+  height: 20px;
+  border-color: #646cff;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
